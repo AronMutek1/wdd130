@@ -1,0 +1,133 @@
+
+:root {
+    --primary-color: #f07a2b;
+    --secondary-color: #694F5D;
+    --accent1-color: #3b5998;
+    --accent2-color: #f44336;
+    --text-color: #333333;
+    --hero-background-color: rgba(0, 0, 0, 0.4); 
+    --font-family-heading: 'Montserrat', sans-serif;
+    --font-family-text: 'Roboto', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-text);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+
+.hero {
+    position: relative;
+    height: 400px;
+    background-image: url('/path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-family: var(--font-family-heading);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--hero-background-color);
+    padding: 10px;
+    color: white;
+    width: 300px;
+}
+
+.hero article img {
+    width: 80px;
+    float: right;
+    margin-left: 10px;
+}
+
+
+.history-section, .adventure-section {
+    margin-top: 40px;
+}
+
+.history-section h2, .adventure-section h2 {
+    font-family: var(--font-family-heading);
+    color: var(--primary-color);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.history-section p, .adventure-section p {
+    margin-bottom: 20px;
+}
+
+
+.adventure-section {
+    text-align: center;
+}
+
+.adventure-section img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--secondary-color);
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
