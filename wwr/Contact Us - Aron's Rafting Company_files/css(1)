@@ -1,9 +1,9 @@
-/*
- * See: https://fonts.google.com/license/googlerestricted
- */
+/* latin-ext */
 @font-face {
-  font-family: 'Google Sans Text';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/l/font?kit=5aUu9-KzpRiLCAt4Unrc-xIKmCU5mEhkgo3FI_E8lH570oBdIw&skey=b20c8ebc9802c116&v=v22) format('woff2');
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
