@@ -23,6 +23,34 @@ body {
     padding: 20px;
 }
 
+.employees div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.employees img {
+    max-width: 200px;
+    background-color: var(--accent-1);
+    border-radius: 100px;
+}
+
+.employees a {
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    color: var(--accent-2);
+    font-size: 1em;
+    text-align: center;
+}
+
+.employees p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    font-size: 0.9em;
+    background-color:darkblue;
+    border-radius: 10px;
+}
 header {
     display: grid;
     text-align: center;
@@ -54,7 +82,7 @@ nav a:hover {
     position: relative;
 
     background-image: url('/path/to/hero-image.jpg');
-    background-size: cover;
+    background-size:cover ;
     background-position: center;
 }
 
