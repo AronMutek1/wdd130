@@ -46,9 +46,9 @@ body {
 .employees p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-color);
+    color: white;
     font-size: 0.9em;
-    background-color:darkblue;
+    background-color: var(--primary-color);
     border-radius: 10px;
 }
 header {
