@@ -249,10 +249,10 @@ nav a:hover {
 
 .hero {
     position: relative;
-
     background-image: url('/path/to/hero-image.jpg');
-    background-size:cover ;
+    background-size:cover;
     background-position: center;
+    width: 99;
 }
 
 .hero h1 {
